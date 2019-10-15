@@ -161,5 +161,13 @@ def studios_totals(nds)
     iner_length =studios_totals[row_index][column_index].length
     iner_index = 0 
     while
-    iner_index < iner
+    iner_index < iner_length do 
+      movie[row_index][column_index][iner_index]
+      iner_index +=1 
+    end
+    column_index +=1 
+  end
+    row_index +=1
+  end
+  movie
   end
